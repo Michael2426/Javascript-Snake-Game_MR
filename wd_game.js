@@ -1,6 +1,6 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from './snake.js'
-import { update as updateFood, draw as drawFood } from './food.js'
-import { outsideGrid } from './grid.js'
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from './wd_snake.js'
+import { update as updateFood, draw as drawFood } from './wd_food.js'
+import { outsideGrid } from './wd_grid.js'
 
 let lastRenderTime = 0
 let gameOver = false
